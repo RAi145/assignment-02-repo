@@ -444,5 +444,18 @@ nav a {
   padding: none;
  
 }
+.footer-container{
+ flex-direction: column;
+width: 300px;
+padding: 20px;
+text-align: left;
+margin-left: 50px;
+ 
+}
+.footer-links{
+  flex-direction: column;
+ justify-content: flex-start;
+  
+}
 
 }
