@@ -34,7 +34,8 @@ body {
   height: auto;
 }
 
-nav ul {
+
+nav ul,.first-change {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -414,4 +415,34 @@ nav a {
   height: 24px;
 }
 
+@media only screen and (max-width: 500px) {
+*{
+ margin: auto;
+}
+  .first-change{
+  display: none;
+}
+.hero{
+  flex-direction: column-reverse;
+  margin: none;
+  padding: auto;
+}
+.product-grid {
+  grid-template-columns: repeat(2 , 1fr);
+  
+}
+.badge{
+  display: none;
+}
+.deal-overlay {
+  position: absolute;
+  bottom:1.5rem;
+  left: 1.5rem ;
+  color: white;
+}
+.main-footer{
+  padding: none;
+ 
+}
 
+}
